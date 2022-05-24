@@ -66,6 +66,8 @@ main .sec1__title{
     color: var(--white);
 }
 main .sec1__paragraph{
+    opacity: 80%;
+    font-family: var(--fontSecond);
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;

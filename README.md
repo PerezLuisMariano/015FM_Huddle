@@ -1,7 +1,7 @@
-## HUDDLE
+## Huddle
 
 ### Screenshot
-![version-desk](design/)
+![version-desk](design/design.png)
 
 
 ### Links
