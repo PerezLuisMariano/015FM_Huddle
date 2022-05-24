@@ -170,7 +170,8 @@ footer .icons a i{
     main .sec1__button:hover{
         color: var(--white);
         background-color: var(--magenta);
-        transition: all 0.2s;
+        transition-property: background-color, color;
+        transition-duration: 0.3s;
         box-shadow: 0 8px 0 0 var(--blackAlpha);
         
     }
