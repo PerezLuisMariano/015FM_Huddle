@@ -114,5 +114,86 @@ footer .icons a{
 footer .icons a i{
     font-size: 1.3rem;
     color:  var(--white);
-    margin: 2px 0 0 0;
+    margin: 1px 0 0 0;
+}
+
+
+@media (min-width: 850px){
+    body{
+        gap: unset;
+        background-image: url(../assets/bg-desktop.svg);
+    }
+    /* HEADER  */
+    header{
+        max-width: 1140px;
+        height: 20vh;
+    }
+    header .logo{
+        width: 200px;
+    }
+    /* MAIN  */
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 85%;
+        max-width: 1140px;
+        height: 70vh;
+    }
+    main .img{
+        width: 60%;
+        height: auto;
+    }
+    main .sec1{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    main .sec1__title{
+        font-size: 3.6rem;
+        text-align: start;
+    }
+    main .sec1__paragraph{
+        opacity: 80%;
+        font-size: 1.5rem;
+        text-align: start;
+    }
+    main .sec1__button{
+        height: 50px;
+        border-radius: 25px;
+    }
+    main .sec1__button:hover{
+        color: var(--white);
+        background-color: var(--magenta);
+        transition: all 0.2s;
+        box-shadow: 0 8px 0 0 var(--blackAlpha);
+        
+    }
+
+
+
+    /* FOOTER */
+    footer{
+        align-items: flex-end;
+        justify-content: center;
+        max-width: 1140px;
+        height: 10vh;
+    }
+    footer .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: auto;
+        height: unset;
+    }
+    footer .icons a:hover{
+        border: 1px solid var(--magenta);
+    }
+    footer .icons a:hover  i{
+        color:  var(--magenta);
+    }
 }
