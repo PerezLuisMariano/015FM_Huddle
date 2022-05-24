@@ -3,4 +3,116 @@
     --magenta: hsl(300, 69%, 71%);
     --white: #fff;
     --black: #111;
+    --blackAlpha: #11111141;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: var(--violet);
+    background-image: url(../assets/bg-mobile.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+/* HEADER  */
+header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 85%;
+    max-width: 600px;
+    height: 120px;
+}
+header .logo{
+    width: 125px;
+}
+
+/* MAIN  */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 85%;
+    max-width: 600px;
+    height: auto;
+}
+main .img{
+    width: 100%;
+    height: auto;
+}
+main .sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+main .sec1__title{
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--white);
+}
+main .sec1__paragraph{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--white);
+}
+main .sec1__button{
+    width: 200px;
+    height: 40px;
+    background-color: var(--white);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--violet);
+    box-shadow: 0 5px 0 0 var(--blackAlpha);
+}
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 85%;
+    max-width: 600px;
+    height: auto;
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 100px;
+}
+footer .icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    border: 1px solid var(--white);
+}
+footer .icons a i{
+    font-size: 1.3rem;
+    color:  var(--white);
+    margin: 2px 0 0 0;
 }
